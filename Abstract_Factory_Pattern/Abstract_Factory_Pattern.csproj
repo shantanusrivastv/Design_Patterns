@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C4E6606-D2C4-4021-B60C-F694B3B975F4}</ProjectGuid>
+    <ProjectGuid>{FEAF62DD-46EA-410C-A997-F19CF5A95711}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Design_Patterns</RootNamespace>
-    <AssemblyName>Design_Patterns</AssemblyName>
+    <RootNamespace>Abstract_Factory_Pattern</RootNamespace>
+    <AssemblyName>Abstract_Factory_Pattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Facade\Problem\Program.cs" />
-    <Compile Include="Facade\Solution\LocalTemperature.cs" />
-    <Compile Include="Facade\Solution\Program.cs" />
-    <Compile Include="Facade\Solution\TemperatureLookupFacade.cs" />
+    <Compile Include="Autos\BMW\BMW328i.cs" />
+    <Compile Include="Autos\BMW\BMW740i.cs" />
+    <Compile Include="Autos\BMW\BMWBase.cs" />
+    <Compile Include="Autos\BMW\BMWM3.cs" />
+    <Compile Include="Autos\NullAutomobile.cs" />
+    <Compile Include="Factory\BMWFactory.cs" />
+    <Compile Include="Factory\IAutoFactory.cs" />
+    <Compile Include="Autos\Mini\MiniCooper.cs" />
+    <Compile Include="Factory\MiniCooperFactory.cs" />
+    <Compile Include="Autos\IAutomobile.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Facade\Problem\WeatherServices\WeatherServices.csproj">
-      <Project>{DB213935-5D56-43F4-B672-8D69E3FB55D6}</Project>
-      <Name>WeatherServices</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

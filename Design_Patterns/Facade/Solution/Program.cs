@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using facade2.TemperatureFacade;
-
-namespace facade2
+﻿namespace Facade_Patterns.Facade.Solution
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)

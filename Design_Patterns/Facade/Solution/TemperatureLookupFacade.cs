@@ -1,7 +1,7 @@
-using WeatherServices;
-
-namespace facade2.TemperatureFacade
+namespace Facade_Patterns.Facade.Solution
 {
+    using WeatherServices;
+
     public class TemperatureLookupFacade
     {
         readonly WeatherService weatherService;

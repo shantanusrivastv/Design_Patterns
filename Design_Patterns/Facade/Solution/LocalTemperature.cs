@@ -1,4 +1,4 @@
-namespace facade2.TemperatureFacade
+namespace Facade_Patterns.Facade.Solution
 {
     public class LocalTemperature
     {

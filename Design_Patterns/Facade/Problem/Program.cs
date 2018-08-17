@@ -1,8 +1,8 @@
-﻿using System;
-using WeatherServices;
-
-namespace facade1
+﻿namespace Facade_Patterns.Facade.Problem
 {
+    using System;
+    using WeatherServices;
+
     internal class Program
     {
         private static void CallingMethod(string[] args)
