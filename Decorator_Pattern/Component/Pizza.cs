@@ -1,4 +1,4 @@
-﻿namespace Decorator_Pattern
+﻿namespace Decorator_Pattern.Component
 {
     public abstract class Pizza
     {

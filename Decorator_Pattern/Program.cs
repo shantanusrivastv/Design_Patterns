@@ -3,6 +3,8 @@ using System;
 
 namespace Decorator_Pattern
 {
+    using Component;
+    using ConcreteComponents;
     using Decorator;
 
     internal class Program

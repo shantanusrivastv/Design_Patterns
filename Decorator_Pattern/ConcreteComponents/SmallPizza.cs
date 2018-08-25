@@ -1,5 +1,7 @@
 ﻿namespace Decorator_Pattern.ConcreteComponents
 {
+    using Component;
+
     public class SmallPizza : Pizza
     {
         public SmallPizza()

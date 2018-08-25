@@ -2,6 +2,8 @@
 
 namespace Decorator_Pattern.ConcreteDecorators
 {
+    using Component;
+
     public class Cheese : PizzaDecorator
     {
         public Cheese(Pizza pizza) : base(pizza)

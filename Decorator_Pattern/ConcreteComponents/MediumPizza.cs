@@ -2,6 +2,8 @@
 
 namespace Decorator_Pattern.ConcreteComponents
 {
+    using Component;
+
     public class MediumPizza : Pizza
     {
         public MediumPizza()

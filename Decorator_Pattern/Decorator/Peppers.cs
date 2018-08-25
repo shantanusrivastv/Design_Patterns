@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Decorator_Pattern.Decorator
 {
+    using Component;
+
     public class Peppers :PizzaDecorator
     {
         public Peppers(Pizza pizza) :base(pizza)

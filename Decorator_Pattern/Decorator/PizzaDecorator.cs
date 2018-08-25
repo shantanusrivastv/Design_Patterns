@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Decorator_Pattern.Decorator
 {
+    using Component;
+
     public class PizzaDecorator : Pizza
     {
         protected Pizza _pizza;
