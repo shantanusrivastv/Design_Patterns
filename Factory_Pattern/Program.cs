@@ -26,7 +26,7 @@ namespace Factory_Pattern
             const string factoryName = "Bmw";
             var factortType = Assembly.GetExecutingAssembly().
                                 GetTypes().
-                                FirstOrDefault(x => x.Name.Contains(factoryName));
+                                FirstOrDefault(x => x.Name.Contains(factoryName.ToUpper()));
 
             return Activator.CreateInstance(factortType) as IAutoFactory;
         }

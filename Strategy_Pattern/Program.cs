@@ -12,7 +12,7 @@ namespace Strategy_Pattern
     {
         static void Main(string[] args)
         {
-            #region Simeple Approach
+            #region Simple Approach
             UpsShipping();
             FedxXShipping();
             BlueDartShipping(); 
