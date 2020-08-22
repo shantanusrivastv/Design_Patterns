@@ -11,15 +11,15 @@ namespace Bridge_Pattern
         }
 
         public string Title { get; set; }
-        public Dictionary<string, string> Questions { get; set; }
+        public Dictionary<string, string> Questions { get; }
 
         public override void Print()
         {
-            Console.WriteLine(formatter.Format("Title", Title));
-            foreach (var question in Questions)
+            Console.WriteLine(_formatter.Format("Title", Title));
+            foreach (var (key, value) in Questions)
             {
-                Console.WriteLine(formatter.Format("   Question", question.Key));
-                Console.WriteLine(formatter.Format("   Answer", question.Value));
+                Console.WriteLine(_formatter.Format("   Question", key));
+                Console.WriteLine(_formatter.Format("   Answer", value));
             }
 
             Console.WriteLine();

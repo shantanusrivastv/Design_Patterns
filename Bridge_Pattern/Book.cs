@@ -14,9 +14,9 @@ namespace Bridge_Pattern
 
         public override void Print()
         {
-            Console.WriteLine(formatter.Format("Title", Title));
-            Console.WriteLine(formatter.Format("Author", Author));
-            Console.WriteLine(formatter.Format("Text", Text));
+            Console.WriteLine(_formatter.Format("Title", Title));
+            Console.WriteLine(_formatter.Format("Author", Author));
+            Console.WriteLine(_formatter.Format("Text", Text));
             Console.WriteLine();
         }
     }

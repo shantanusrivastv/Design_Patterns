@@ -15,10 +15,10 @@ namespace Bridge_Pattern
 
         public override void Print()
         {
-            Console.WriteLine(formatter.Format("Class", Class));
-            Console.WriteLine(formatter.Format("Student", Student));
-            Console.WriteLine(formatter.Format("Text", Text));
-            Console.WriteLine(formatter.Format("References", References));
+            Console.WriteLine(_formatter.Format("Class", Class));
+            Console.WriteLine(_formatter.Format("Student", Student));
+            Console.WriteLine(_formatter.Format("Text", Text));
+            Console.WriteLine(_formatter.Format("References", References));
             Console.WriteLine();
         }
     }
