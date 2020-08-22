@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade_Patterns", "Design_Patterns\Facade_Patterns.csproj", "{1C4E6606-D2C4-4021-B60C-F694B3B975F4}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.Pattern", "ChainOfResponsibility.Pattern\ChainOfResponsibility.Pattern.csproj", "{0D09887C-C835-48B4-BC10-01093652BC8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Pattern", "Singleton_Pattern\Singleton_Pattern.csproj", "{D509B6EA-2EAD-42FD-8432-AE5F2C6AF381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter Pattern", "Adapter Pattern\Adapter Pattern.csproj", "{5EA2D11B-DF84-4D41-A327-3F68A045EDF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{D509B6EA-2EAD-42FD-8432-AE5F2C6AF381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D509B6EA-2EAD-42FD-8432-AE5F2C6AF381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D509B6EA-2EAD-42FD-8432-AE5F2C6AF381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA2D11B-DF84-4D41-A327-3F68A045EDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA2D11B-DF84-4D41-A327-3F68A045EDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA2D11B-DF84-4D41-A327-3F68A045EDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA2D11B-DF84-4D41-A327-3F68A045EDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {433F8025-7F25-4DCB-846A-4939011F8CA4}
 	EndGlobalSection
 EndGlobal
