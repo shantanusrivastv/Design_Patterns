@@ -1,4 +1,4 @@
-namespace Bridge_Example
+namespace Bridge_Pattern
 {
     public abstract class Manuscript
     {
@@ -9,6 +9,6 @@ namespace Bridge_Example
             this.formatter = formatter;
         }
 
-        abstract public void Print();
+        public abstract void Print();
     }
 }

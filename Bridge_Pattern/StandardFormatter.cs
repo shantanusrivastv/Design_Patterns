@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Bridge_Example
+﻿namespace Bridge_Pattern
 {
-    class StandardFormatter : IFormatter
+    internal class StandardFormatter : IFormatter
     {
         public string Format(string key, string value)
         {

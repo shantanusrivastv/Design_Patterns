@@ -1,4 +1,4 @@
-namespace Bridge_Example
+namespace Bridge_Pattern
 {
     public interface IFormatter
     {

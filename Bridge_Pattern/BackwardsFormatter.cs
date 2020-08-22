@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 
-namespace Bridge_Example
+namespace Bridge_Pattern
 {
     public class BackwardsFormatter : IFormatter
     {
