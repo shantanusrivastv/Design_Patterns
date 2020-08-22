@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Factory_Pattern.Factories;
 
 namespace Factory_Pattern
 {
@@ -11,7 +12,7 @@ namespace Factory_Pattern
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             IAutoFactory autoFactory = LoadFactory();
             IAuto car = autoFactory.CreateAutomobile();

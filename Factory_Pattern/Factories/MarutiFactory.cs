@@ -1,7 +1,7 @@
-namespace Factory_Pattern
-{
-    using Autos;
+using Factory_Pattern.Autos;
 
+namespace Factory_Pattern.Factories
+{
     class MarutiFactory : IAutoFactory
     {
         public IAuto CreateAutomobile()
